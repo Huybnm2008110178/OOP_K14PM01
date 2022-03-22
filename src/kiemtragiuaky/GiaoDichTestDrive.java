@@ -66,7 +66,7 @@ public class GiaoDichTestDrive {
         for(int i = 0; i < arrGiaoDichNha.size(); i++){
             String[] ngayGiaoDichNha = arrGiaoDichNha.get(i).getNgayGiaoDich().split("/");
             if(ngayGiaoDichNha[1].equals("9") && ngayGiaoDichNha[2].equals("2013")){
-                System.out.println(arrGiaoDichNha.get(i).toString());2
+                System.out.println(arrGiaoDichNha.get(i).toString());
             }
         }
     }
