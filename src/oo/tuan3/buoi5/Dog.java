@@ -1,6 +1,8 @@
 package oo.tuan3.buoi5;
 
-public class Dog {
+import oo.tuan5.buoi9.Animal;
+
+public class Dog extends Animal {
 
     //attribute - data
     private int size; //implementation
@@ -21,6 +23,18 @@ public class Dog {
     //interface
     public int getSize(){
         return this.size;
+    }
+
+    @Override
+    protected void makeNoise() {
+        // TODO Auto-generated method stub
+        
+    }
+
+    @Override
+    protected void eat() {
+        // TODO Auto-generated method stub
+        
     }
     
 }
