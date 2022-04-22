@@ -11,7 +11,7 @@ public class GiaoDichDat extends GiaoDich {
         this.loaiDat = loaiDat;
     }
 
-    public String getLoaiDat(){
+    public String getLoaiDat){
         return loaiDat;
     }
 
