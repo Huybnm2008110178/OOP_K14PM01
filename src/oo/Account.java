@@ -8,7 +8,7 @@ public class Account {
 
     //data
     int account_number = 12345;
-    int account_balance = 0;
+    int account_balance = 2;
 
     //function
 
